@@ -250,11 +250,11 @@
         margin-right: 2%;
         margin: 81px auto;
         border-radius: 5px;
-        border: 1px solid;
         height: 422px;
         overflow: hidden;
         position: relative;
         cursor: pointer;
+        box-shadow: 3px 3px 5px rgb(206, 203, 203);
 
         .card-image {
             width: 100%;
@@ -386,13 +386,15 @@
                 top: 142px;
                 width: 109px;
                 height: 36px;
-                background: transparent;
+                background: #a50064;
                 color: white;
                 border-color: white;
                 border-width: 1px;
                 border-radius: 1px;
                 &:hover{
-                    opacity: .5;
+                    background: #750446;
+                    // opacity: .1;
+                   
                 }
                
             }
@@ -487,7 +489,8 @@
                 height: 107px;
                 border-radius: 100%;
                 margin-right: 39px;
-                
+                box-shadow: 3px 3px 5px rgb(204, 195, 195);
+              
 
             }
             .one{
@@ -495,6 +498,9 @@
                 &:hover{
                     position: relative;
                     bottom: 20px;
+                    opacity: .5;
+
+                   
                 }
             }
             .two{
@@ -542,8 +548,9 @@
                 color: #007cba;
                 border: 1px solid #007cba;
                 border-radius: 1px;
+                box-shadow:0 2px 2px rgb(199, 189, 189) ;
                 &:hover{
-                    opacity: .5;
+                   background-color: #d0e5f0;
                    
                 }
             }
@@ -596,18 +603,27 @@
                 height: 36px;
                 background-color: transparent;
                 color: white;
+                font-size: 14px;
+                font-weight: lighter;
                 border-color: white;
-                border-radius: 2px;
+                border-radius: 3px;
                 cursor: pointer;
+                border-width: 1px;
+                box-shadow:0 1px 2px rgb(43, 41, 41) ;
                 &:hover{
-                    opacity: .5;
+                    background-color: #0c4d6d;
                 }
+                
+                
 
             }
 
             .one {
                 background-color: white;
                 color: #007cba;
+                &:hover{
+                    background-color: #acc6d3;
+                }
             }
         }
 
@@ -712,10 +728,11 @@
                 width: 35px;
                 height: 35px;
                 border-radius: 100%;
-
+                
                 i {
                     font-size: 20px;
                     color: white;
+                    
 
                 }
             }

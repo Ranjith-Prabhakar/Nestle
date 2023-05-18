@@ -262,11 +262,12 @@
   margin-right: 2%;
   margin: 81px auto;
   border-radius: 5px;
-  border: 1px solid;
   height: 422px;
   overflow: hidden;
   position: relative;
   cursor: pointer;
+  -webkit-box-shadow: 3px 3px 5px #cecbcb;
+          box-shadow: 3px 3px 5px #cecbcb;
 }
 
 .card-slider .card .card-image {
@@ -388,7 +389,7 @@
   top: 142px;
   width: 109px;
   height: 36px;
-  background: transparent;
+  background: #a50064;
   color: white;
   border-color: white;
   border-width: 1px;
@@ -396,7 +397,7 @@
 }
 
 .news .news-content .news-content-box button:hover {
-  opacity: .5;
+  background: #750446;
 }
 
 .news .news-content .news-content-box .content-head {
@@ -475,6 +476,8 @@
   height: 107px;
   border-radius: 100%;
   margin-right: 39px;
+  -webkit-box-shadow: 3px 3px 5px #ccc3c3;
+          box-shadow: 3px 3px 5px #ccc3c3;
 }
 
 .products .product-container .product-middle .one {
@@ -485,6 +488,7 @@
 .products .product-container .product-middle .one:hover {
   position: relative;
   bottom: 20px;
+  opacity: .5;
 }
 
 .products .product-container .product-middle .two {
@@ -544,10 +548,12 @@
   color: #007cba;
   border: 1px solid #007cba;
   border-radius: 1px;
+  -webkit-box-shadow: 0 2px 2px #c7bdbd;
+          box-shadow: 0 2px 2px #c7bdbd;
 }
 
 .products .product-container .product-bottom button:hover {
-  opacity: .5;
+  background-color: #d0e5f0;
 }
 
 /*signUp ==========================================================================================================================*/
@@ -602,18 +608,27 @@
   height: 36px;
   background-color: transparent;
   color: white;
+  font-size: 14px;
+  font-weight: lighter;
   border-color: white;
-  border-radius: 2px;
+  border-radius: 3px;
   cursor: pointer;
+  border-width: 1px;
+  -webkit-box-shadow: 0 1px 2px #2b2929;
+          box-shadow: 0 1px 2px #2b2929;
 }
 
 .signup .signUpContainer .box button:hover {
-  opacity: .5;
+  background-color: #0c4d6d;
 }
 
 .signup .signUpContainer .box .one {
   background-color: white;
   color: #007cba;
+}
+
+.signup .signUpContainer .box .one:hover {
+  background-color: #acc6d3;
 }
 
 /*detail ==========================================================================================================================*/
