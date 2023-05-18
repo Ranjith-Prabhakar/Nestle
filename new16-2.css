@@ -44,6 +44,8 @@
   border-bottom-left-radius: 4px;
   background-color: rgba(219, 210, 210, 0.3);
   cursor: pointer;
+  -webkit-box-shadow: 2px 2px 2px #e0cece;
+          box-shadow: 2px 2px 2px #e0cece;
 }
 
 .main .head-top .head-top-position li {
@@ -59,9 +61,10 @@
 
 .main .head-top .head-top-position li p {
   color: rgba(52, 34, 13, 0.8);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: lighter;
   letter-spacing: .7px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .main .head-top .head-top-position .head-top-position-4th-li {
@@ -83,7 +86,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  left: 9px;
+  left: 14px;
 }
 
 .main .head-bottom {
@@ -112,6 +115,8 @@
   border-style: none;
   border-bottom: 1px solid black;
   font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -164,6 +169,7 @@
   font-size: 16px;
   cursor: pointer;
   padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav .nav-container .nav-container-left li:hover {
@@ -174,15 +180,17 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: black;
+  color: #363535;
 }
 
 .nav .nav-container .nav-container-right li {
   list-style: none;
-  margin-left: 30px;
+  font-size: 14px;
+  margin-left: 8px;
   font-weight: bold;
   cursor: pointer;
   padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav .nav-container .nav-container-right li:hover {
@@ -335,9 +343,10 @@
   text-align: left;
   padding: 0 24px;
   letter-spacing: .5px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: lighter;
-  color: #34220D;
+  color: #645a4d;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-slider .card .read-more {
@@ -409,9 +418,10 @@
   padding: 0 70px 16px 0;
   width: 216px;
   height: 185px;
-  font-size: 18px;
+  font-size: 16px;
   border-bottom: 1px solid white;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .news .news-content .news-content-box .position1 i {
@@ -456,6 +466,7 @@
   margin-bottom: 64px;
   font-size: 36px;
   color: #63513d;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .products .product-container .product-top span {
@@ -542,6 +553,7 @@
 
 .products .product-container .product-bottom button {
   padding: 10px 5px;
+  font-family: Arial, Helvetica, sans-serif;
   width: 138px;
   background-color: transparent;
   color: #007cba;
@@ -683,8 +695,10 @@
   list-style: none;
   margin-bottom: 5px;
   color: #30261D;
-  -webkit-transition: 1s;
-  transition: 1s;
+  -webkit-transition: 5s;
+  transition: 5s;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .details .detail-container .box .box-child li:hover {
@@ -707,7 +721,7 @@
 }
 
 .social-media .social-media-container h1 {
-  font-family: 'Righteous', cursive;
+  font-family: Helvetica, sans-serif;
   font-style: italic;
   color: #63513d;
   font-size: 20px;
@@ -744,6 +758,7 @@
   width: 35px;
   height: 35px;
   border-radius: 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .social-media .social-media-container .social-media-list li i {
@@ -767,10 +782,11 @@
 .footer .footer-container li {
   list-style: none;
   padding-right: 10px;
-  padding-left: 15px;
-  font-size: 13px;
+  padding-left: 5px;
+  font-size: 10px;
   color: #30261D;
   font-size: 14px;
   cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*# sourceMappingURL=new16-2.css.map */
